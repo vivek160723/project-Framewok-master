@@ -1,0 +1,773 @@
+05/06/2025 04:14:24 PM: INFO: ********    Test_001_Login *******
+05/06/2025 04:14:24 PM: INFO: ******* Verifying login testcase *******
+05/06/2025 04:14:26 PM: INFO: ******* Login testcase has passed *******
+05/06/2025 04:16:52 PM: INFO: ********    Test_001_Login *******
+05/06/2025 04:16:52 PM: INFO: ******* Verifying login testcase *******
+05/06/2025 04:17:01 PM: INFO: ******* Login testcase has passed *******
+05/06/2025 04:30:13 PM: INFO: ====== Starting Test_004_Search ======
+05/06/2025 04:30:16 PM: INFO: Opened URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+05/06/2025 04:30:21 PM: INFO: Entering login credentials...
+05/06/2025 04:30:22 PM: INFO: Login successful. On dashboard page.
+05/06/2025 04:30:22 PM: INFO: Performing search operation...
+05/06/2025 04:30:22 PM: INFO: Search item found. Test passed.
+05/06/2025 04:30:22 PM: INFO: ====== Test_004_Search Completed ======
+05/06/2025 04:59:29 PM: INFO: ********** Test_001_Login STARTED **********
+05/06/2025 04:59:29 PM: INFO: Verifying login functionality...
+05/06/2025 04:59:29 PM: INFO: Performing login operation.
+05/06/2025 04:59:29 PM: INFO: Entering username: Admin
+05/06/2025 04:59:30 PM: INFO: Entering password.
+05/06/2025 04:59:30 PM: INFO: Clicking login button.
+05/06/2025 04:59:32 PM: INFO: Login successful and dashboard loaded.
+05/06/2025 04:59:32 PM: INFO: Login method called with provided credentials.
+05/06/2025 04:59:32 PM: INFO: Dashboard loaded successfully. Login PASSED.
+05/06/2025 04:59:32 PM: INFO: ********** Test_001_Login COMPLETED **********
+05/06/2025 04:59:34 PM: INFO: ========== Test_003_Pim STARTED ==========
+05/06/2025 04:59:40 PM: INFO: Navigated to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+05/06/2025 04:59:45 PM: INFO: Performing login...
+05/06/2025 04:59:47 PM: INFO: Login successful. On Dashboard.
+05/06/2025 04:59:47 PM: INFO: Navigating to PIM module to add user...
+05/06/2025 05:00:18 PM: INFO: ********** Test_001_Login STARTED **********
+05/06/2025 05:00:18 PM: INFO: Verifying login functionality...
+05/06/2025 05:00:18 PM: INFO: Performing login operation.
+05/06/2025 05:00:18 PM: INFO: Entering username: Admin
+05/06/2025 05:00:24 PM: INFO: Entering password.
+05/06/2025 05:00:24 PM: INFO: Clicking login button.
+05/06/2025 05:00:26 PM: INFO: Login successful and dashboard loaded.
+05/06/2025 05:00:26 PM: INFO: Login method called with provided credentials.
+05/06/2025 05:00:26 PM: INFO: Dashboard loaded successfully. Login PASSED.
+05/06/2025 05:00:26 PM: INFO: ********** Test_001_Login COMPLETED **********
+05/06/2025 05:00:32 PM: INFO: ========== Test_003_Pim STARTED ==========
+05/06/2025 05:00:32 PM: INFO: Navigated to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+05/06/2025 05:00:37 PM: INFO: Performing login...
+05/06/2025 05:00:39 PM: INFO: Login successful. On Dashboard.
+05/06/2025 05:00:39 PM: INFO: Navigating to PIM module to add user...
+05/06/2025 05:00:47 PM: INFO: ✅ Employee added successfully. Redirected to Personal Details page.
+05/06/2025 05:00:47 PM: INFO: ========== Test_003_Pim COMPLETED ==========
+05/06/2025 05:01:20 PM: INFO: ====== Starting Test_004_Search ======
+05/06/2025 05:01:20 PM: INFO: Opened URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+05/06/2025 05:01:25 PM: INFO: Entering login credentials...
+05/06/2025 05:01:26 PM: INFO: Login successful. On dashboard page.
+05/06/2025 05:01:26 PM: INFO: Performing search operation...
+05/06/2025 05:01:27 PM: INFO: Search item found. Test passed.
+05/06/2025 05:01:27 PM: INFO: ====== Test_004_Search Completed ======
+05/06/2025 05:03:55 PM: INFO: ********** Testing Successful Login **********
+05/06/2025 05:03:55 PM: INFO: Verifying login functionality with valid credentials...
+05/06/2025 05:03:55 PM: INFO: Performing login operation.
+05/06/2025 05:03:55 PM: INFO: Entering username: Admin
+05/06/2025 05:04:02 PM: INFO: Entering password.
+05/06/2025 05:04:02 PM: INFO: Clicking login button.
+05/06/2025 05:04:03 PM: INFO: Login successful and dashboard loaded.
+05/06/2025 05:04:03 PM: INFO: Login method called with valid credentials.
+05/06/2025 05:04:03 PM: INFO: Dashboard loaded successfully. Login PASSED.
+05/06/2025 05:04:03 PM: INFO: ********** Testing Invalid Password Login **********
+05/06/2025 05:04:03 PM: INFO: Performing login operation.
+05/06/2025 05:04:03 PM: INFO: Entering username: Admin
+05/06/2025 05:04:14 PM: ERROR: Test invalid_password FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_invalid_password_failed_20250506-170414.png
+05/06/2025 05:04:14 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100fa2a54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000100f9acf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000100ae6864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100b2d410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000100b6e480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x0000000100b217ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000100f67ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000100f6af98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x0000000100f482c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000100f6b810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x0000000100f392f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x0000000100f8b57c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000100f8b708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x0000000100f9a93c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:04:14 PM: INFO: ********** Testing Invalid Username Login **********
+05/06/2025 05:04:14 PM: INFO: Performing login operation.
+05/06/2025 05:04:14 PM: INFO: Entering username: invalid@email.com
+05/06/2025 05:04:25 PM: ERROR: Test invalid_username FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_invalid_username_failed_20250506-170425.png
+05/06/2025 05:04:25 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100fa2a54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000100f9acf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000100ae6864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100b2d410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000100b6e480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x0000000100b217ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000100f67ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000100f6af98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x0000000100f482c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000100f6b810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x0000000100f392f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x0000000100f8b57c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000100f8b708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x0000000100f9a93c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:04:25 PM: INFO: ********** Testing Empty Credentials Login **********
+05/06/2025 05:04:25 PM: INFO: Performing login operation.
+05/06/2025 05:04:25 PM: INFO: Entering username: 
+05/06/2025 05:04:35 PM: ERROR: Test empty_credentials FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_empty_credentials_failed_20250506-170435.png
+05/06/2025 05:04:35 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100fa2a54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000100f9acf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000100ae6864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100b2d410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000100b6e480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x0000000100b217ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000100f67ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000100f6af98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x0000000100f482c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000100f6b810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x0000000100f392f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x0000000100f8b57c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000100f8b708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x0000000100f9a93c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:04:35 PM: INFO: ********** Testing SQL Injection Prevention **********
+05/06/2025 05:04:35 PM: INFO: Performing login operation.
+05/06/2025 05:04:35 PM: INFO: Entering username: ' OR '1'='1
+05/06/2025 05:04:46 PM: ERROR: Test sql_injection FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_sql_injection_failed_20250506-170446.png
+05/06/2025 05:04:46 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100fa2a54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000100f9acf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000100ae6864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100b2d410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000100b6e480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x0000000100b217ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000100f67ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000100f6af98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x0000000100f482c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000100f6b810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x0000000100f392f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x0000000100f8b57c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000100f8b708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x0000000100f9a93c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:09:26 PM: INFO: ********** Testing Successful Login **********
+05/06/2025 05:09:26 PM: INFO: Verifying login functionality with valid credentials...
+05/06/2025 05:09:26 PM: INFO: Performing login operation.
+05/06/2025 05:09:26 PM: INFO: Entering username: Admin
+05/06/2025 05:09:27 PM: INFO: Entering password.
+05/06/2025 05:09:27 PM: INFO: Clicking login button.
+05/06/2025 05:09:29 PM: INFO: Login successful and dashboard loaded.
+05/06/2025 05:09:29 PM: INFO: Login method called with valid credentials.
+05/06/2025 05:09:29 PM: INFO: Dashboard loaded successfully. Login PASSED.
+05/06/2025 05:09:29 PM: INFO: ********** Testing Invalid Password Login **********
+05/06/2025 05:09:29 PM: INFO: Performing login operation.
+05/06/2025 05:09:29 PM: INFO: Entering username: Admin
+05/06/2025 05:09:39 PM: ERROR: Test invalid_password FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_invalid_password_failed_20250506-170939.png
+05/06/2025 05:09:39 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010053ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000100536cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000100082864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001000c9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x000000010010a480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001000bd7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000100503ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000100506f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001004e42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000100507810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001004d52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010052757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000100527708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010053693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:09:39 PM: INFO: ********** Testing Invalid Username Login **********
+05/06/2025 05:09:39 PM: INFO: Performing login operation.
+05/06/2025 05:09:39 PM: INFO: Entering username: invalid@email.com
+05/06/2025 05:09:50 PM: ERROR: Test invalid_username FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_invalid_username_failed_20250506-170950.png
+05/06/2025 05:09:50 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010053ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000100536cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000100082864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001000c9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x000000010010a480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001000bd7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000100503ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000100506f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001004e42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000100507810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001004d52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010052757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000100527708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010053693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:09:50 PM: INFO: ********** Testing Empty Credentials Login **********
+05/06/2025 05:09:50 PM: INFO: Performing login operation.
+05/06/2025 05:09:50 PM: INFO: Entering username: 
+05/06/2025 05:10:01 PM: ERROR: Test empty_credentials FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_empty_credentials_failed_20250506-171000.png
+05/06/2025 05:10:01 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010053ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000100536cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000100082864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001000c9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x000000010010a480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001000bd7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000100503ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000100506f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001004e42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000100507810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001004d52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010052757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000100527708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010053693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:10:01 PM: INFO: ********** Testing SQL Injection Prevention **********
+05/06/2025 05:10:01 PM: INFO: Performing login operation.
+05/06/2025 05:10:01 PM: INFO: Entering username: ' OR '1'='1
+05/06/2025 05:10:11 PM: ERROR: Test sql_injection FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_sql_injection_failed_20250506-171011.png
+05/06/2025 05:10:11 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010053ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000100536cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000100082864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001000c9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x000000010010a480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001000bd7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000100503ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000100506f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001004e42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000100507810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001004d52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010052757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000100527708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010053693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:14:52 PM: INFO: ********** Testing Successful Login **********
+05/06/2025 05:14:52 PM: INFO: Verifying login functionality with valid credentials...
+05/06/2025 05:14:52 PM: INFO: Performing login operation.
+05/06/2025 05:14:52 PM: INFO: Entering username: Admin
+05/06/2025 05:14:55 PM: INFO: Entering password.
+05/06/2025 05:14:55 PM: INFO: Clicking login button.
+05/06/2025 05:14:57 PM: INFO: Login successful and dashboard loaded.
+05/06/2025 05:14:57 PM: INFO: Login method called with valid credentials.
+05/06/2025 05:14:57 PM: INFO: Dashboard loaded successfully. Login PASSED.
+05/06/2025 05:14:57 PM: INFO: ********** Testing Invalid Password Login **********
+05/06/2025 05:14:57 PM: INFO: Performing login operation.
+05/06/2025 05:14:57 PM: INFO: Entering username: Admin
+05/06/2025 05:15:07 PM: ERROR: Test invalid_password FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_invalid_password_failed_20250506-171507.png
+05/06/2025 05:15:07 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001034caa54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x00000001034c2cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x000000010300e864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000103055410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000103096480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001030497ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x000000010348fccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000103492f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001034702c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000103493810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001034612f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x00000001034b357c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x00000001034b3708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x00000001034c293c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:15:07 PM: INFO: ********** Testing Invalid Username Login **********
+05/06/2025 05:15:07 PM: INFO: Performing login operation.
+05/06/2025 05:15:07 PM: INFO: Entering username: invalid@email.com
+05/06/2025 05:15:18 PM: ERROR: Test invalid_username FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_invalid_username_failed_20250506-171517.png
+05/06/2025 05:15:18 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001034caa54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x00000001034c2cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x000000010300e864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000103055410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000103096480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001030497ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x000000010348fccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000103492f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001034702c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000103493810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001034612f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x00000001034b357c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x00000001034b3708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x00000001034c293c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:15:18 PM: INFO: ********** Testing Empty Credentials Login **********
+05/06/2025 05:15:18 PM: INFO: Performing login operation.
+05/06/2025 05:15:18 PM: INFO: Entering username: 
+05/06/2025 05:15:28 PM: ERROR: Test empty_credentials FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_empty_credentials_failed_20250506-171528.png
+05/06/2025 05:15:28 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001034caa54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x00000001034c2cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x000000010300e864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000103055410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000103096480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001030497ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x000000010348fccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000103492f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001034702c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000103493810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001034612f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x00000001034b357c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x00000001034b3708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x00000001034c293c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:15:28 PM: INFO: ********** Testing SQL Injection Prevention **********
+05/06/2025 05:15:28 PM: INFO: Performing login operation.
+05/06/2025 05:15:28 PM: INFO: Entering username: ' OR '1'='1
+05/06/2025 05:15:39 PM: ERROR: Test sql_injection FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_sql_injection_failed_20250506-171539.png
+05/06/2025 05:15:39 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001034caa54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x00000001034c2cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x000000010300e864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000103055410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000103096480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001030497ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x000000010348fccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000103492f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001034702c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000103493810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001034612f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x00000001034b357c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x00000001034b3708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x00000001034c293c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:17:56 PM: INFO: ********** Testing Successful Login **********
+05/06/2025 05:17:56 PM: INFO: Verifying login functionality with valid credentials...
+05/06/2025 05:17:56 PM: INFO: Performing login operation.
+05/06/2025 05:17:56 PM: INFO: Entering username: Admin
+05/06/2025 05:18:03 PM: INFO: Entering password.
+05/06/2025 05:18:03 PM: INFO: Clicking login button.
+05/06/2025 05:18:05 PM: INFO: Login successful and dashboard loaded.
+05/06/2025 05:18:05 PM: INFO: Login method called with valid credentials.
+05/06/2025 05:18:05 PM: INFO: Dashboard loaded successfully. Login PASSED.
+05/06/2025 05:18:05 PM: INFO: ********** Testing Invalid Password Login **********
+05/06/2025 05:18:05 PM: INFO: Performing login operation.
+05/06/2025 05:18:05 PM: INFO: Entering username: Admin
+05/06/2025 05:18:15 PM: ERROR: Test invalid_password FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_invalid_password_failed_20250506-171815.png
+05/06/2025 05:18:15 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100d82a54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000100d7acf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x00000001008c6864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x000000010090d410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x000000010094e480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001009017ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000100d47ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000100d4af98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x0000000100d282c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000100d4b810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x0000000100d192f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x0000000100d6b57c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000100d6b708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x0000000100d7a93c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:18:15 PM: INFO: ********** Testing Invalid Username Login **********
+05/06/2025 05:18:15 PM: INFO: Performing login operation.
+05/06/2025 05:18:15 PM: INFO: Entering username: invalid@email.com
+05/06/2025 05:18:26 PM: ERROR: Test invalid_username FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_invalid_username_failed_20250506-171826.png
+05/06/2025 05:18:26 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100d82a54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000100d7acf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x00000001008c6864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x000000010090d410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x000000010094e480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001009017ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000100d47ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000100d4af98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x0000000100d282c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000100d4b810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x0000000100d192f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x0000000100d6b57c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000100d6b708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x0000000100d7a93c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:18:26 PM: INFO: ********** Testing Empty Credentials Login **********
+05/06/2025 05:18:26 PM: INFO: Performing login operation.
+05/06/2025 05:18:26 PM: INFO: Entering username: 
+05/06/2025 05:18:36 PM: ERROR: Test empty_credentials FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_empty_credentials_failed_20250506-171836.png
+05/06/2025 05:18:36 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100d82a54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000100d7acf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x00000001008c6864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x000000010090d410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x000000010094e480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001009017ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000100d47ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000100d4af98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x0000000100d282c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000100d4b810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x0000000100d192f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x0000000100d6b57c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000100d6b708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x0000000100d7a93c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:18:37 PM: INFO: ********** Testing SQL Injection Prevention **********
+05/06/2025 05:18:37 PM: INFO: Performing login operation.
+05/06/2025 05:18:37 PM: INFO: Entering username: ' OR '1'='1
+05/06/2025 05:18:47 PM: ERROR: Test sql_injection FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_sql_injection_failed_20250506-171847.png
+05/06/2025 05:18:47 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100d82a54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000100d7acf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x00000001008c6864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x000000010090d410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x000000010094e480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001009017ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000100d47ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000100d4af98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x0000000100d282c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000100d4b810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x0000000100d192f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x0000000100d6b57c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000100d6b708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x0000000100d7a93c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:23:31 PM: INFO: ********** Testing Successful Login **********
+05/06/2025 05:23:31 PM: INFO: Verifying login functionality with valid credentials...
+05/06/2025 05:23:31 PM: INFO: Performing login operation.
+05/06/2025 05:23:31 PM: INFO: Entering username: Admin
+05/06/2025 05:23:32 PM: INFO: Entering password.
+05/06/2025 05:23:32 PM: INFO: Clicking login button.
+05/06/2025 05:23:34 PM: INFO: Login successful and dashboard loaded.
+05/06/2025 05:23:34 PM: INFO: Login method called with valid credentials.
+05/06/2025 05:23:34 PM: INFO: Dashboard loaded successfully. Login PASSED.
+05/06/2025 05:23:34 PM: INFO: ********** Testing Invalid Password Login **********
+05/06/2025 05:23:34 PM: INFO: Performing login operation.
+05/06/2025 05:23:34 PM: INFO: Entering username: Admin
+05/06/2025 05:23:44 PM: ERROR: Test invalid_password FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_invalid_password_failed_20250506-172344.png
+05/06/2025 05:23:44 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c2ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000102c26cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000102772864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001027b9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x00000001027fa480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001027ad7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000102bf3ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000102bf6f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x0000000102bd42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000102bf7810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x0000000102bc52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x0000000102c1757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000102c17708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x0000000102c2693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:23:44 PM: INFO: ********** Testing Invalid Username Login **********
+05/06/2025 05:23:44 PM: INFO: Performing login operation.
+05/06/2025 05:23:44 PM: INFO: Entering username: invalid@email.com
+05/06/2025 05:23:55 PM: ERROR: Test invalid_username FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_invalid_username_failed_20250506-172354.png
+05/06/2025 05:23:55 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c2ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000102c26cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000102772864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001027b9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x00000001027fa480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001027ad7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000102bf3ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000102bf6f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x0000000102bd42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000102bf7810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x0000000102bc52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x0000000102c1757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000102c17708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x0000000102c2693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:23:55 PM: INFO: ********** Testing Empty Credentials Login **********
+05/06/2025 05:23:55 PM: INFO: Performing login operation.
+05/06/2025 05:23:55 PM: INFO: Entering username: 
+05/06/2025 05:24:05 PM: ERROR: Test empty_credentials FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_empty_credentials_failed_20250506-172405.png
+05/06/2025 05:24:05 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c2ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000102c26cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000102772864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001027b9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x00000001027fa480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001027ad7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000102bf3ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000102bf6f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x0000000102bd42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000102bf7810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x0000000102bc52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x0000000102c1757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000102c17708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x0000000102c2693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:24:05 PM: INFO: ********** Testing SQL Injection Prevention **********
+05/06/2025 05:24:05 PM: INFO: Performing login operation.
+05/06/2025 05:24:05 PM: INFO: Entering username: ' OR '1'='1
+05/06/2025 05:24:15 PM: ERROR: Test sql_injection FAILED. Screenshot saved to: /Users/vivekkumar/screenshots/test_sql_injection_failed_20250506-172415.png
+05/06/2025 05:24:15 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c2ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000102c26cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000102772864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001027b9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x00000001027fa480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001027ad7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000102bf3ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000102bf6f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x0000000102bd42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000102bf7810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x0000000102bc52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x0000000102c1757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000102c17708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x0000000102c2693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:28:57 PM: INFO: ********** Testing Successful Login **********
+05/06/2025 05:28:57 PM: INFO: Verifying login functionality with valid credentials...
+05/06/2025 05:28:57 PM: INFO: Performing login operation.
+05/06/2025 05:28:57 PM: INFO: Entering username: Admin
+05/06/2025 05:28:58 PM: INFO: Entering password.
+05/06/2025 05:28:58 PM: INFO: Clicking login button.
+05/06/2025 05:29:00 PM: INFO: Login successful and dashboard loaded.
+05/06/2025 05:29:00 PM: INFO: Login method called with valid credentials.
+05/06/2025 05:29:00 PM: INFO: Dashboard loaded successfully. Login PASSED.
+05/06/2025 05:29:00 PM: INFO: ********** Testing Invalid Password Login **********
+05/06/2025 05:29:00 PM: INFO: Performing login operation.
+05/06/2025 05:29:00 PM: INFO: Entering username: Admin
+05/06/2025 05:29:10 PM: ERROR: Test invalid_password FAILED. Screenshot saved to: /Users/vivekkumar/Downloads/project-Framewok-master/testcases/../Screenshots/test_invalid_password_failed_20250506-172910.png
+05/06/2025 05:29:10 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100656a54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x000000010064ecf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x000000010019a864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001001e1410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000100222480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001001d57ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x000000010061bccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x000000010061ef98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001005fc2c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x000000010061f810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001005ed2f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010063f57c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x000000010063f708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010064e93c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:29:10 PM: INFO: ********** Testing Invalid Username Login **********
+05/06/2025 05:29:10 PM: INFO: Performing login operation.
+05/06/2025 05:29:10 PM: INFO: Entering username: invalid@email.com
+05/06/2025 05:29:21 PM: ERROR: Test invalid_username FAILED. Screenshot saved to: /Users/vivekkumar/Downloads/project-Framewok-master/testcases/../Screenshots/test_invalid_username_failed_20250506-172920.png
+05/06/2025 05:29:21 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100656a54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x000000010064ecf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x000000010019a864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001001e1410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000100222480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001001d57ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x000000010061bccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x000000010061ef98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001005fc2c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x000000010061f810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001005ed2f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010063f57c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x000000010063f708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010064e93c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:29:21 PM: INFO: ********** Testing Empty Credentials Login **********
+05/06/2025 05:29:21 PM: INFO: Performing login operation.
+05/06/2025 05:29:21 PM: INFO: Entering username: 
+05/06/2025 05:29:31 PM: ERROR: Test empty_credentials FAILED. Screenshot saved to: /Users/vivekkumar/Downloads/project-Framewok-master/testcases/../Screenshots/test_empty_credentials_failed_20250506-172931.png
+05/06/2025 05:29:31 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100656a54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x000000010064ecf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x000000010019a864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001001e1410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000100222480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001001d57ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x000000010061bccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x000000010061ef98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001005fc2c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x000000010061f810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001005ed2f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010063f57c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x000000010063f708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010064e93c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 05:29:31 PM: INFO: ********** Testing SQL Injection Prevention **********
+05/06/2025 05:29:31 PM: INFO: Performing login operation.
+05/06/2025 05:29:31 PM: INFO: Entering username: ' OR '1'='1
+05/06/2025 05:29:41 PM: ERROR: Test sql_injection FAILED. Screenshot saved to: /Users/vivekkumar/Downloads/project-Framewok-master/testcases/../Screenshots/test_sql_injection_failed_20250506-172941.png
+05/06/2025 05:29:41 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100656a54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x000000010064ecf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x000000010019a864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001001e1410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000100222480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x00000001001d57ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x000000010061bccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x000000010061ef98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001005fc2c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x000000010061f810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001005ed2f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010063f57c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x000000010063f708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010064e93c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000190d59c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190d54b80 thread_start + 8
+
+05/06/2025 10:48:57 PM: INFO: ********** Testing Successful Login **********
+05/06/2025 10:48:57 PM: INFO: Verifying login functionality with valid credentials...
+05/06/2025 10:48:57 PM: INFO: Performing login operation.
+05/06/2025 10:48:57 PM: INFO: Entering username: Admin
+05/06/2025 10:48:57 PM: INFO: Entering password.
+05/06/2025 10:48:57 PM: INFO: Clicking login button.
+05/06/2025 10:49:00 PM: INFO: Login successful and dashboard loaded.
+05/06/2025 10:49:00 PM: INFO: Login method called with valid credentials.
+05/06/2025 10:49:00 PM: INFO: Dashboard loaded successfully. Login PASSED.
+05/06/2025 10:49:00 PM: INFO: ********** Testing Invalid Password Login **********
+05/06/2025 10:49:00 PM: INFO: Performing login operation.
+05/06/2025 10:49:00 PM: INFO: Entering username: Admin
+05/06/2025 10:49:11 PM: ERROR: Test invalid_password FAILED. Screenshot saved to: /Users/vivekkumar/Downloads/project-Framewok-master/testcases/../Screenshots/test_invalid_password_failed_20250506-224910.png
+05/06/2025 10:49:11 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010533ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000105336cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000104e82864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104ec9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000104f0a480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x0000000104ebd7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000105303ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000105306f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001052e42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000105307810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001052d52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010532757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000105327708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010533693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000188605c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000188600b80 thread_start + 8
+
+05/06/2025 10:49:11 PM: INFO: ********** Testing Invalid Username Login **********
+05/06/2025 10:49:11 PM: INFO: Performing login operation.
+05/06/2025 10:49:11 PM: INFO: Entering username: invalid@email.com
+05/06/2025 10:49:21 PM: ERROR: Test invalid_username FAILED. Screenshot saved to: /Users/vivekkumar/Downloads/project-Framewok-master/testcases/../Screenshots/test_invalid_username_failed_20250506-224921.png
+05/06/2025 10:49:21 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010533ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000105336cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000104e82864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104ec9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000104f0a480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x0000000104ebd7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000105303ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000105306f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001052e42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000105307810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001052d52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010532757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000105327708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010533693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000188605c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000188600b80 thread_start + 8
+
+05/06/2025 10:49:21 PM: INFO: ********** Testing Empty Credentials Login **********
+05/06/2025 10:49:21 PM: INFO: Performing login operation.
+05/06/2025 10:49:21 PM: INFO: Entering username: 
+05/06/2025 10:49:31 PM: ERROR: Test empty_credentials FAILED. Screenshot saved to: /Users/vivekkumar/Downloads/project-Framewok-master/testcases/../Screenshots/test_empty_credentials_failed_20250506-224931.png
+05/06/2025 10:49:31 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010533ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000105336cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000104e82864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104ec9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000104f0a480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x0000000104ebd7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000105303ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000105306f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001052e42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000105307810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001052d52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010532757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000105327708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010533693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000188605c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000188600b80 thread_start + 8
+
+05/06/2025 10:49:31 PM: INFO: ********** Testing SQL Injection Prevention **********
+05/06/2025 10:49:31 PM: INFO: Performing login operation.
+05/06/2025 10:49:31 PM: INFO: Entering username: ' OR '1'='1
+05/06/2025 10:49:42 PM: ERROR: Test sql_injection FAILED. Screenshot saved to: /Users/vivekkumar/Downloads/project-Framewok-master/testcases/../Screenshots/test_sql_injection_failed_20250506-224941.png
+05/06/2025 10:49:42 PM: ERROR: Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010533ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000105336cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000104e82864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104ec9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000104f0a480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x0000000104ebd7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000105303ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000105306f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001052e42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000105307810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001052d52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010532757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000105327708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010533693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000188605c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000188600b80 thread_start + 8
+
+05/06/2025 10:49:46 PM: INFO: ========== Test_003_Pim STARTED ==========
+05/06/2025 10:49:47 PM: INFO: Navigated to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+05/06/2025 10:49:52 PM: INFO: Performing login...
+05/06/2025 10:49:53 PM: INFO: Login successful. On Dashboard.
+05/06/2025 10:49:53 PM: INFO: Navigating to PIM module to add user...
+05/06/2025 10:50:02 PM: INFO: ✅ Employee added successfully. Redirected to Personal Details page.
+05/06/2025 10:50:02 PM: INFO: ========== Test_003_Pim COMPLETED ==========
+05/06/2025 10:50:27 PM: INFO: ====== Starting Test_004_Search ======
+05/06/2025 10:50:28 PM: INFO: Opened URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+05/06/2025 10:50:33 PM: INFO: Entering login credentials...
+05/06/2025 10:50:34 PM: INFO: Login successful. On dashboard page.
+05/06/2025 10:50:34 PM: INFO: Performing search operation...
+05/06/2025 10:50:34 PM: INFO: Search item found. Test passed.
+05/06/2025 10:50:34 PM: INFO: ====== Test_004_Search Completed ======

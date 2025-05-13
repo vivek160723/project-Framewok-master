@@ -1,0 +1,7 @@
+[32mINFO    [0m AutomationLogger:test_search.py:20 ====== Starting Test_004_Search ======
+[32mINFO    [0m AutomationLogger:test_search.py:22 Opened URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m AutomationLogger:test_search.py:26 Entering login credentials...
+[32mINFO    [0m AutomationLogger:test_search.py:35 Login successful. On dashboard page.
+[32mINFO    [0m AutomationLogger:test_search.py:37 Performing search operation...
+[32mINFO    [0m AutomationLogger:test_search.py:45 Search item found. Test passed.
+[32mINFO    [0m AutomationLogger:test_search.py:52 ====== Test_004_Search Completed ======

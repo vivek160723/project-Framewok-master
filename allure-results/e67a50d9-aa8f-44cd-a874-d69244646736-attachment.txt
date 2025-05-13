@@ -1,0 +1,22 @@
+[32mINFO    [0m AutomationLogger:test_login.py:41 ********** Testing Invalid Password Login **********
+[32mINFO    [0m AutomationLogger:LoginPage.py:42 Performing login operation.
+[32mINFO    [0m AutomationLogger:LoginPage.py:18 Entering username: Admin
+[1m[31mERROR   [0m AutomationLogger:test_login.py:115 Test invalid_password FAILED. Screenshot saved to: /Users/vivekkumar/Downloads/project-Framewok-master/testcases/../Screenshots/test_invalid_password_failed_20250506-224910.png
+[1m[31mERROR   [0m AutomationLogger:test_login.py:116 Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010533ea54 cxxbridge1$str$ptr + 2803960
+1   chromedriver                        0x0000000105336cf0 cxxbridge1$str$ptr + 2771860
+2   chromedriver                        0x0000000104e82864 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000104ec9410 cxxbridge1$string$len + 382736
+4   chromedriver                        0x0000000104f0a480 cxxbridge1$string$len + 649088
+5   chromedriver                        0x0000000104ebd7ec cxxbridge1$string$len + 334572
+6   chromedriver                        0x0000000105303ccc cxxbridge1$str$ptr + 2562928
+7   chromedriver                        0x0000000105306f98 cxxbridge1$str$ptr + 2575932
+8   chromedriver                        0x00000001052e42c4 cxxbridge1$str$ptr + 2433384
+9   chromedriver                        0x0000000105307810 cxxbridge1$str$ptr + 2578100
+10  chromedriver                        0x00000001052d52f0 cxxbridge1$str$ptr + 2371988
+11  chromedriver                        0x000000010532757c cxxbridge1$str$ptr + 2708512
+12  chromedriver                        0x0000000105327708 cxxbridge1$str$ptr + 2708908
+13  chromedriver                        0x000000010533693c cxxbridge1$str$ptr + 2770912
+14  libsystem_pthread.dylib             0x0000000188605c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000188600b80 thread_start + 8

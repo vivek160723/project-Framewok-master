@@ -1,0 +1,10 @@
+[32mINFO    [0m AutomationLogger:test_login.py:15 ********** Test_001_Login STARTED **********
+[32mINFO    [0m AutomationLogger:test_login.py:16 Verifying login functionality...
+[32mINFO    [0m AutomationLogger:LoginPage.py:42 Performing login operation.
+[32mINFO    [0m AutomationLogger:LoginPage.py:18 Entering username: Admin
+[32mINFO    [0m AutomationLogger:LoginPage.py:24 Entering password.
+[32mINFO    [0m AutomationLogger:LoginPage.py:30 Clicking login button.
+[32mINFO    [0m AutomationLogger:LoginPage.py:51 Login successful and dashboard loaded.
+[32mINFO    [0m AutomationLogger:test_login.py:21 Login method called with provided credentials.
+[32mINFO    [0m AutomationLogger:test_login.py:26 Dashboard loaded successfully. Login PASSED.
+[32mINFO    [0m AutomationLogger:test_login.py:37 ********** Test_001_Login COMPLETED **********
